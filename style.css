@@ -18,7 +18,6 @@ body {
 }
 
 .page {
-  max-width: 980px;
   margin: 0 auto;
   padding: 24px 32px;
 }
@@ -66,10 +65,6 @@ h1.title {
 
 /********* productlist  ********/
 .productlist {
-  max-width: 1100px;
-  margin: 24px auto;
-  padding: 0 16px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -168,8 +163,7 @@ h1.title {
 }
 /********* product ****************************************************/
 main {
-  max-width: 1100px;
-  margin: 1rem auto;
+  margin: 4rem 12rem;
   padding: 0 16px;
 }
 
@@ -246,4 +240,17 @@ main {
   .produkt_type h2 {
     font-size: 3rem;
   }
+}
+
+/********* header *********/
+header a {
+  text-decoration: none;
+  width: max-content;
+  background-color: #ff893b;
+  color: #111;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
 }
