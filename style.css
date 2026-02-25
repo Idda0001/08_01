@@ -156,14 +156,14 @@ h1.title {
   margin: 0;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .productlist {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 /********* product ****************************************************/
 main {
-  margin: 4rem 12rem;
+  margin: 3rem 9rem;
   padding: 0 16px;
 }
 
@@ -231,7 +231,7 @@ main {
 }
 
 /********* desktop layout *********/
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .produkt {
     grid-template-columns: 1.5fr 1fr 0.5fr;
     gap: 36px;
