@@ -3,83 +3,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
     <title>Productlist</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
+    <header><a href="index.html">Forside</a></header>
 
-    <main>
+    <main class="productlist">
       <a href="product.html" class="product_link">
-        <article class="product_list_container">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp"
-            alt="sort cardigan"
-          />
+        <article class="product_card">
+          <div class="product_media">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp"
+              alt="Sort Cardigan"
+            />
+          </div>
 
-          <div class="produkt_text">
-            <div class="produkt_type">
-              <h3>GUCCI</h3>
-              <h2>Cardigan - Sort strik i uld</h2>
-            </div>
-            <div class="produkt_pris">
-              <p>800 DKK</p>
+          <div class="product_text">
+            <h3 class="brand">Nike</h3>
+            <h2 class="title">Sort strikket cardigan</h2>
+
+            <p class="info">Cardigan | Nike</p>
+
+            <div class="price">
+              <p class="now">DKK 1595,-</p>
             </div>
           </div>
         </article>
       </a>
 
       <a href="product.html" class="product_link">
-        <article class="product_list_container">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp"
-            alt="puma taske"
-          />
+        <article class="product_card">
+          <div class="product_media">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp"
+              alt="Blue T20 Indian Cricket Jersey"
+            />
+            <span class="discount">-34%</span>
+          </div>
 
-          <div class="produkt_text">
-            <div class="produkt_type">
-              <h3>PUMA</h3>
-              <h2>Rygsæk</h2>
-            </div>
-            <div class="produkt_pris">
-              <p>459 DKK</p>
+          <div class="product_text">
+            <h3 class="brand">Nike</h3>
+            <h2 class="title">Blue T20 Indian Cricket Jersey</h2>
+
+            <p class="info">Tshirts | Nike</p>
+
+            <div class="price">
+              <p class="prev">Prev. DKK 1595,-</p>
+              <p class="now">Now DKK 1050,-</p>
             </div>
           </div>
         </article>
       </a>
 
       <a href="product.html" class="product_link">
-        <article class="product_list_container">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp"
-            alt="nike polo trøje"
-          />
+        <article class="product_card_soldout">
+          <div class="product_media">
+            <span class="soldout_badge">Sold Out</span>
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp"
+              alt="Puma rygsæk"
+            />
+          </div>
 
-          <div class="produkt_text">
-            <div class="produkt_type">
-              <h3>NIKE</h3>
-              <h2>Polo - Sahara trøje</h2>
-            </div>
-            <div class="produkt_pris">
-              <p>395 DKK</p>
+          <div class="product_text">
+            <h3 class="brand">Puma</h3>
+            <h2 class="title">Grå tactical rygsæk</h2>
+
+            <p class="info">Rygsæk | Puma</p>
+
+            <div class="price">
+              <p class="now">DKK 1595,-</p>
             </div>
           </div>
         </article>
       </a>
 
-      <a href="product.html">
-        <article class="product_list_container">
-          <img
-            src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp"
-            alt="Puma trøje"
-          />
+      <a href="product.html" class="product_link">
+        <article class="product_card_soldout">
+          <div class="product_media">
+            <span class="soldout_badge">Sold Out</span>
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp"
+              alt="Puma Tshirt"
+            />
+            <span class="discount">-34%</span>
+          </div>
 
-          <div class="produkt_text">
-            <div class="produkt_type">
-              <h3>PUMA</h3>
-              <h2>Puma - T-shirt i bomuld</h2>
-            </div>
-            <div class="produkt_pris">
-              <p>349 DKK</p>
+          <div class="product_text">
+            <h3 class="brand">Puma</h3>
+            <h2 class="title">Lysgrå T-shirt</h2>
+
+            <p class="info">Tshirts | Puma</p>
+
+            <div class="price">
+              <p class="prev">Prev. DKK 1595,-</p>
+              <p class="now">Now DKK 1050,-</p>
             </div>
           </div>
         </article>
